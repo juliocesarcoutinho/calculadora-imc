@@ -1,0 +1,17 @@
+body {
+  height: 100vh; 
+  background-color: #1e293b;
+}
+.form-container {
+  background-color: #334155; 
+  border: 1px solid #475569; 
+  color: #f1f5f9; 
+}
+.btn-primary {
+  background-color: #2563eb; 
+  border-color: #2563eb;
+}
+.btn-primary:hover {
+  background-color: #1d4ed8; 
+  border-color: #1d4ed8;
+}
