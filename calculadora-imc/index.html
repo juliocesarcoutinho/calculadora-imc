@@ -26,6 +26,8 @@
                 id="peso"
                 name="peso"
                 required
+                oninvalid="this.setCustomValidity('O campo peso é obrigatório')"
+                oninput="this.setCustomValidity('')"
                 placeholder="Ex: 70"
               />
             </div>
@@ -37,6 +39,8 @@
                 id="altura"
                 name="altura"
                 required
+                oninvalid="this.setCustomValidity('O campo altura é obrigatório')"
+                oninput="this.setCustomValidity('')"
                 placeholder="Ex: 1.75"
               />
             </div>
