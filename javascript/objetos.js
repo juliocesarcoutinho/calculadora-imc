@@ -1,5 +1,5 @@
 // Objectos
-let pessoa = {
+const pessoa = {
   nome: "Lucas",
   idade: 24,
   altura: 1.8,
@@ -9,7 +9,7 @@ console.log(pessoa);
 
 // ---------------------------------------------
 
-let carro = {
+const carro = {
   marca: "Fiat",
   modelo: "Uno",
   ano: 2010,
@@ -21,7 +21,7 @@ console.log(carro);
 
 // ---------------------------------------------
 
-let usuarios = [
+const usuarios = [
   {
     nome: "Lucas",
     idade: 24,
